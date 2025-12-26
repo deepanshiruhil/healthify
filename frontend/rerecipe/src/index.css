@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Poppins-med';
+  src: url('./Fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-bold';
+  src: url('./Fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Poppins-med'
+}
+
+:root {
+  font-family: 'Poppins-med', Helvetica, Inter, system-ui, Avenir,  Arial, sans-serif imn !important;
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #10DE93
+
+}
