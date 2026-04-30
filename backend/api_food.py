@@ -21,7 +21,6 @@ def search_recipe(food_name_weight: Tuple[str, float]) -> list[dict]:
     access_token = token_request.json()['access_token']
     token_timer = token_request.json()['expires_in']
 
-
     food_list = []
     for food_name, weight in food_name_weight:
         food_data = search_food(food_name, weight, access_token)
